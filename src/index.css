@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Noto Sans Tamil', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  font-family: 'Noto Sans Tamil', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: 'Noto Sans Tamil', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom leaflet popup overrides for slick dark theme */
+.leaflet-popup-content-wrapper {
+  background: #0f172a !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #0f172a !important;
+}
+
+.leaflet-container {
+  font-family: inherit !important;
+  background-color: #020617 !important;
+}
+
+.leaflet-top, .leaflet-bottom, .leaflet-control {
+  z-index: 300 !important;
+}

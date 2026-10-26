@@ -1,0 +1,8 @@
+{
+  "name": "Remix TN Bus Live - Where is my TN Bus",
+  "description": "Live bus tracker with real-time GPS, next stop ETA countdown, destination wake-up alarm, delay \u0026 breakdown alerts, crowdsourced passenger updates, and offline timetable.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
